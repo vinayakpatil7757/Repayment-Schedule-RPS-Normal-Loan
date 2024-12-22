@@ -6,7 +6,7 @@ Steps Followed to Calculate Repayment Schedule
 3. Check the sample data and datatypes
 4. Calculate EMI using below formula -                                                                         
     emi = round((loan_amt*roi_monthly*pow(1+roi_monthly,Tenure_yr*12)/(pow(1+roi_monthly,Tenure_yr*12) -1)),2)
-    Where,
+         Where,
          roi_monthly= ROI_yr/12 (Divide Yearly ROI by 12)
-5. Iterate for every loan using "For Loop" and calculate Interest , Principal
-6. Download the result in excel/csv sheet. 
+6. Iterate for every loan using "For Loop" and calculate Interest , Principal
+7. Download the result in excel/csv sheet. 
